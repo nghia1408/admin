@@ -189,6 +189,9 @@ body {
   max-height: 100%;
   display: flex;
   flex-direction: column;
+  overflow-y: auto; /* thêm dòng này để kích hoạt cuộn dọc */
+  height: 100vh;
+  
 }
 .app-content-header {
   display: flex;
